@@ -3,7 +3,7 @@ Google Docs app used to send email reminders from the GGGSC Admin. Personnel
 
 Visit https://docs.google.com/document/d/1nM5-_2X9JJ90GdiU7SdohXQJ9I8PkKdvtQwrxtAPVcA/edit?usp=sharing to copy and use this application.
 
-/t Initial set-up 
+\t Initial set-up 
 Copy this document to your personal Google Drive (File > Make a copy…) .
 Re-name Appropriately.
 If a menu to run the script is desired,
