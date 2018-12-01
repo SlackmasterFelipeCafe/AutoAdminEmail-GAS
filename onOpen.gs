@@ -1,7 +1,12 @@
 function onOpen() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var menu1Entries = [
-    {name: "Send Email", functionName: "SendAutoEmail"},
-  ];
-  ss.addMenu("GGGSC AutoAdmin", menu1Entries);
+  
+  DocumentApp.getUi()
+      .createMenu('GGGSC AutoAdmin')
+      .addItem('Send Email', 'Send Email')
+      //.addSeparator()
+      //.addSubMenu(SpreadsheetApp.getUi().createMenu('My Submenu')
+          //.addItem('One Submenu Item', 'mySecondFunction')
+          //.addItem('Another Submenu Item', 'myThirdFunction'))
+      .addToUi();
+  
 }
