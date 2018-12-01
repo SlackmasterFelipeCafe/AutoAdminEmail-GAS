@@ -2,7 +2,7 @@ function SendAutoEmail () {
   //**********************************************************************************************************
   // Google Application Script (GAS) used to send automatic email reminders for GGGSC Admin Staff          //*
   // add or remove additional emails below seperated by a comma;                                           //*
-  // e.g var emailAddress = "pbrown@usgs.gov,jmosley@usgs.gov,mmontour@usgs.gov";                          //*
+  // e.g., var emailAddress = "pbrown@usgs.gov,jmosley@usgs.gov,mmontour@usgs.gov";                        //*
   
   var emailAddress = "pbrown@usgs.gov,ahari@usgs.gov";
   
@@ -19,7 +19,7 @@ function SendAutoEmail () {
   split1 = text.split('Subject:\n');
   split2 = split1[1].split('Body:\n');
   //Uncomment the below for debugging.  Will print split arrays to Google Logs (View > Logs)
-  //Logger.log (split1)  
+  //Logger.log (split1);  
   //for(var i = 0; i < split2.length; i++){
   //  Logger.log('Array '+ i + ' = ' + split2[i]);
   // }
